@@ -3,8 +3,8 @@
  * An array is a group of some predefined number of elements.
  * For instance, we could have an array of 10 ints or 10 Strings.
  *
- * Or, we could have an array of our own custom Objects, such as our own Bird class for a birdwatching
- * application. This would allow us to keep track of many birds and their own behavior.
+ * Or, we could have an array of our own custom Objects, such as our own Bird class for a
+ * birdwatching application. This would allow us to keep track of many birds and their own behavior.
  *
  * For the following problems, all of the syntax we need is in this documentation:
  * https://www.learnjavaonline.org/en/Arrays
@@ -15,7 +15,7 @@ public class ArrayBasics {
      * @return the length of arr.
      */
     public int getLengthOfArray(int[] arr){
-        return 0;
+        return arr.length;
     }
 
 
@@ -27,7 +27,7 @@ public class ArrayBasics {
      * @return the element at index n of arr.
      */
     public int getNthElementOfArray(int[] arr, int n){
-        return 0;
+        return arr[n];
     }
 
     /**
@@ -39,7 +39,7 @@ public class ArrayBasics {
      * @return nothing. Because of pass-by-reference, any change to the array will be reflected across our java program.
      */
     public void setNthElementOfArray(int[] arr, int n, int val){
-
+        arr[n] = val;
     }
 
     /**
@@ -47,6 +47,7 @@ public class ArrayBasics {
      * @return a new int array that can contain n elements.
      */
     public int[] returnNewArraySizeN(int n){
-        return null;
+        int[] newArr = new int[n];
+        return newArr;
     }
 }
