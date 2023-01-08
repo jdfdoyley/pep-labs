@@ -15,7 +15,7 @@
     title: jdfdoyley/pep-gitpod-workspace - main
     ref: main
     refType: branch
-    revision: 5d0ee2b0d677c8aee69a52cbfbf882eaab758954
+    revision: c85b3e48d4362858fe59b22691f5bde5f813b8b5
     repository:
       cloneUrl: https://github.com/jdfdoyley/pep-gitpod-workspace.git
       host: github.com
@@ -33,8 +33,8 @@
     checkoutLocation: pep-gitpod-workspace
     upstreamRemoteURI: https://github.com/revature-curriculum/pep-gitpod-workspace.git
   :gitpod_workspace:
-    :workspace_id: jdfdoyley-pepgitpodwork-ssv2a746b7v
-    :workspace_url: https://jdfdoyley-pepgitpodwork-ssv2a746b7v.ws-us79.gitpod.io
+    :workspace_id: jdfdoyley-pepgitpodwork-bseb09f6z8t
+    :workspace_url: https://jdfdoyley-pepgitpodwork-bseb09f6z8t.ws-us81.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
     :git_user_email: jdfd.dev@icloud.com
     :git_user_name: Jason D'Oyley
