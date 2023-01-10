@@ -2,7 +2,7 @@
 :lab_name: pep-labs
 :repo_path: "/workspace/revpro-cli/pep-labs"
 :previous_lab: 
-:current_lab: 
+:current_lab: HardcodedLogin
 :origin_remote: https://github.com/jdfdoyley/pep-labs.git
 :repo_clone_folder: "/workspace/revpro-cli/pep-labs"
 :github_username: jdfdoyley
@@ -40,12 +40,12 @@
     :git_user_name: Jason D'Oyley
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 0
+  :count_labs_passed: 1
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 7
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 7
   Start:
     :Week: 1
     :Order: 1
@@ -252,15 +252,15 @@
     :Order: 9
     :Type: challenge
     :count_tests: 7
-    :count_tests_passed: 0
+    :count_tests_passed: 7
     :tests:
-      loginTest1: 0
-      loginTest2: 0
-      loginTest3: 0
-      loginTest4: 0
-      loginTest5: 0
-      loginTest6: 0
-      loginTest7: 0
+      loginTest1: 1
+      loginTest2: 1
+      loginTest3: 1
+      loginTest4: 1
+      loginTest5: 1
+      loginTest6: 1
+      loginTest7: 1
   FizzBuzz:
     :Week: 2
     :Order: 10
