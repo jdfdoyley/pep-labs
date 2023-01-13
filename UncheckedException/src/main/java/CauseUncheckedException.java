@@ -19,6 +19,9 @@ public class CauseUncheckedException {
      * memory.
      */
     public void throwUncheckedException() {
+        int x = 10;
+        int y = 0;
 
+        System.out.println(x / y);
     }
 }
