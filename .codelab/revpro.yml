@@ -2,7 +2,7 @@
 :lab_name: pep-labs
 :repo_path: "/workspace/revpro-cli/pep-labs"
 :previous_lab: 
-:current_lab: 
+:current_lab: Map
 :origin_remote: https://github.com/jdfdoyley/pep-labs.git
 :repo_clone_folder: "/workspace/revpro-cli/pep-labs"
 :github_username: jdfdoyley
@@ -40,12 +40,12 @@
     :git_user_name: Jason D'Oyley
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 0
+  :count_labs_passed: 1
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 7
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 7
   Start:
     :Week: 1
     :Order: 1
@@ -362,15 +362,15 @@
     :Order: 6
     :Type: lab
     :count_tests: 7
-    :count_tests_passed: 0
+    :count_tests_passed: 7
     :tests:
-      createMapTest: 0
-      getSizeTest1: 0
-      getSizeTest2: 0
-      addKeyValuePairTest1: 0
-      addKeyValuePairTest2: 0
-      removeKeyValuePairTest1: 0
-      overwriteValueTest1: 0
+      createMapTest: 1
+      getSizeTest1: 1
+      getSizeTest2: 1
+      addKeyValuePairTest1: 1
+      addKeyValuePairTest2: 1
+      removeKeyValuePairTest1: 1
+      overwriteValueTest1: 1
   Queue:
     :Week: 3
     :Order: 7
