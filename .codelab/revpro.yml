@@ -1,7 +1,7 @@
 ---
 :lab_name: pep-labs
 :repo_path: "/workspace/revpro-cli/pep-labs"
-:previous_lab: 
+:previous_lab: BankAccount
 :current_lab: BankAccount
 :origin_remote: https://github.com/jdfdoyley/pep-labs.git
 :repo_clone_folder: "/workspace/revpro-cli/pep-labs"
@@ -40,12 +40,12 @@
     :git_user_name: Jason D'Oyley
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 0
+  :count_labs_passed: 1
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 6
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 6
   Start:
     :Week: 1
     :Order: 1
@@ -444,14 +444,14 @@
     :Order: 13
     :Type: project
     :count_tests: 6
-    :count_tests_passed: 0
+    :count_tests_passed: 6
     :tests:
-      bankServiceTest1: 0
-      bankServiceTest2: 0
-      bankServiceTest3: 0
-      bankServiceTest4: 0
-      bankServiceTest5: 0
-      bankServiceTest6: 0
+      bankServiceTest1: 1
+      bankServiceTest2: 1
+      bankServiceTest3: 1
+      bankServiceTest4: 1
+      bankServiceTest5: 1
+      bankServiceTest6: 1
   StaticKeyword:
     :Week: 4
     :Order: 1
