@@ -2,7 +2,7 @@
 :lab_name: pep-labs
 :repo_path: "/workspace/revpro-cli/pep-labs"
 :previous_lab: 
-:current_lab: 
+:current_lab: Stack
 :origin_remote: https://github.com/jdfdoyley/pep-labs.git
 :repo_clone_folder: "/workspace/revpro-cli/pep-labs"
 :github_username: jdfdoyley
@@ -40,12 +40,12 @@
     :git_user_name: Jason D'Oyley
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 0
+  :count_labs_passed: 1
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 7
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 7
   Start:
     :Week: 1
     :Order: 1
@@ -390,15 +390,15 @@
     :Order: 8
     :Type: lab
     :count_tests: 7
-    :count_tests_passed: 0
+    :count_tests_passed: 7
     :tests:
-      createStackTest: 0
-      getSizeTest1: 0
-      getSizeTest2: 0
-      addToTopOfStackTest1: 0
-      removeFromTopOfStackTest1: 0
-      removeFromTopOfStackTest2: 0
-      getTopOfStackWithoutRemovingTest1: 0
+      createStackTest: 1
+      getSizeTest1: 1
+      getSizeTest2: 1
+      addToTopOfStackTest1: 1
+      removeFromTopOfStackTest1: 1
+      removeFromTopOfStackTest2: 1
+      getTopOfStackWithoutRemovingTest1: 1
   Casting:
     :Week: 3
     :Order: 9
