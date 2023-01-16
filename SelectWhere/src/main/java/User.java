@@ -10,7 +10,6 @@ public class User {
     public User() {
     }
 
-
     public User(String firstname, String lastname, Double salary) {
         this.firstname = firstname;
         this.lastname = lastname;
@@ -56,13 +55,15 @@ public class User {
         this.salary = salary;
     }
 
-
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
         User user = (User) o;
-        return id == user.id && Objects.equals(firstname, user.firstname) && Objects.equals(lastname, user.lastname) && Objects.equals(salary, user.salary);
+        return id == user.id && Objects.equals(firstname, user.firstname) && Objects.equals(lastname, user.lastname)
+                && Objects.equals(salary, user.salary);
     }
 
     @Override
