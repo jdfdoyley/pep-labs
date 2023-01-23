@@ -1,12 +1,12 @@
 # Javalin Lab: Creating Endpoints
-Javalin is a web framework for java. This allows other machines to send HTTP requests to the endpoints that we define 
-with Javalin, and to send appropriate HTTP responses based on that specific Request. An endpoint is the pattern in 
+Javalin is a web framework for java. This allows other machines to send HTTP requests to the endpoints that we define
+with Javalin, and to send appropriate HTTP responses based on that specific Request. An endpoint is the pattern in
 the URL which directs our request to the appropriate code. For example:
     www.website.com/this/leads/to/some/code/in/our/app
 
 ## Parts of HTTP:
 - **HTTP Request**
-    - *An HTTP request is how a client computer sends a request to a server computer. This only works if that server 
+    - *An HTTP request is how a client computer sends a request to a server computer. This only works if that server
       computer is set up to receive HTTP requests.*
     - HTTP Requests have 3 important components:
         - **Head**: stores meta-data regarding the request
@@ -34,7 +34,7 @@ the URL which directs our request to the appropriate code. For example:
 ## Steps to Create Endpoints
 
 ### Step 1: Creating the Webserver
-The first line to any Javalin app is as follows: 
+The first line to any Javalin app is as follows:
 ```java
 public static void main(String[] args){
     Javalin app = Javalin.create();
@@ -46,7 +46,7 @@ Note: the number 9000 above represents the port that our web application will be
 
 
 ### Step 2: Defining Endpoints
-Now that we have a webserver that continuously runs, we need to define endpoints that users and other applications 
+Now that we have a webserver that continuously runs, we need to define endpoints that users and other applications
 can send HTTP Requests to.
 
 The syntax for creating an endpoint is as follows:
