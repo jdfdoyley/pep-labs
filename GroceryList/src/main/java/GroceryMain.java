@@ -41,6 +41,7 @@ public class GroceryMain {
                     active = false;
                     break;
             }
+            inputScanner.close();
         }
     }
 
