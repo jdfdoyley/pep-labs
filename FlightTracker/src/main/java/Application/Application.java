@@ -10,13 +10,14 @@ import java.sql.SQLException;
 
 /**
  * There is no need to modify anything in this class.
- * The main method will start a new Javalin API on the console at localhost:8080.
- * Take a look at the FlightController class for API documentation as well as instructions for how to
- * access the API endpoints.
+ * The main method will start a new Javalin API on the console at
+ * localhost:8080. Take a look at the FlightController class for API
+ * documentation as well as instructions for how to access the API endpoints.
  */
 public class Application {
     /**
      * You can run this main method to run the API.
+     *
      * @param args
      */
     public static void main(String[] args) {
@@ -25,12 +26,15 @@ public class Application {
         Javalin app = flightController.startAPI();
         app.start(8080);
     }
+
     /**
-     * For the purpose of this short exercise, this method will destroy and set up a new flight table.
-     * This is not a normal way to set up your tables, in real projects you should set up your database
-     * schema in a SQL editor such as DBeaver or DataGrip. Do not change anything in this method.
+     * For the purpose of this short exercise, this method will destroy and set up a
+     * new flight table.
+     * This is not a normal way to set up your tables, in real projects you should
+     * set up your database schema in a SQL editor such as DBeaver or DataGrip. Do
+     * not change anything in this method.
      */
-    public static void databaseSetup(){
+    public static void databaseSetup() {
         try {
             Connection conn = ConnectionUtil.getConnection();
             PreparedStatement ps1 = conn.prepareStatement("drop table if exists flight");
@@ -49,7 +53,7 @@ public class Application {
                     "('tampa', 'dallas')," +
                     "('dallas', 'tampa');");
             ps3.executeUpdate();
-        }catch(SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
         }
     }
