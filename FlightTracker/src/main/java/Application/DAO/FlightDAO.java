@@ -99,7 +99,7 @@ public class FlightDAO {
      * You only need to change the sql String and set preparedStatement parameters.
      *
      * Remember that the format of a insert PreparedStatement written as a string
-     * works something like this: tring sql = "insert into TableName (ColumnName1,
+     * works something like this: String sql = "insert into TableName (ColumnName1,
      * ColumnName2) values (?, ?);";
      * The question marks will be filled in by the preparedStatement setString,
      * setInt, etc methods. they follow this format, where the first argument
@@ -165,9 +165,9 @@ public class FlightDAO {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
             // write PreparedStatement setString and setInt methods here.
-            preparedStatement.setString(1, flight.getDeparture_city());
-            preparedStatement.setString(2, flight.getArrival_city());
-            preparedStatement.setInt(3, id);
+            preparedStatement.setString(0, flight.getDeparture_city());
+            preparedStatement.setString(1, flight.getArrival_city());
+            preparedStatement.setInt(2, id);
 
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
