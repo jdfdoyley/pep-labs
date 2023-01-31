@@ -40,12 +40,12 @@
     :git_user_name: Jason D'Oyley
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 0
+  :count_labs_passed: 1
   :count_tests_total: 361
-  :count_tests_passed: 12
+  :count_tests_passed: 13
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 12
+  :count_tests_passed: 13
   Start:
     :Week: 1
     :Order: 1
@@ -721,7 +721,7 @@
     :Order: 13
     :Type: project
     :count_tests: 13
-    :count_tests_passed: 12
+    :count_tests_passed: 13
     :tests:
       getAllFlightsTest1: 1
       getFlightByIDTest1: 1
@@ -730,7 +730,7 @@
       getFlightsFromCityToCityTest2: 1
       addFlightCheckByIdTest1: 1
       addFlightCheckAllFlightsTest1: 1
-      updateFlightDAOTest1: 0
+      updateFlightDAOTest1: 1
       getAllFlightsTest: 1
       addFlightTest: 1
       getFlightsFromCityToCityTest1: 1
